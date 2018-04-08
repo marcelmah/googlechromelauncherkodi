@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+   id="script.googlechrome.launcher"
+   name="Google Chrome launcher"
+   version="1"
+   provider-name="Marcel">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Launches Google Chrome (in incognito mode) from within Kodi.</summary>
+    <description lang="en">Launches Google Chrome (in incognito mode) from within Kodi. Based upon Teeedubb's Hyperspin Launcher!</description>
+    <disclaimer lang="en">For bugs, requests or general questions visit the Kodi forum.</disclaimer>
+    <language></language>
+    <platform>windx</platform>
+    <license>The Unlicense</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news>First version released on 23 november 2017
+	http://kodi.wiki/view/Add-on_structure
+	http://kodi.wiki/view/addon.xml
+	</news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>
